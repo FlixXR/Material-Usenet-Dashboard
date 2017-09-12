@@ -42,4 +42,4 @@ app.get('/', function (req, res) {
 require('./routes')(app, config);
 
 // the port it will start on
-app.listen(3000);
+app.listen(8000);
